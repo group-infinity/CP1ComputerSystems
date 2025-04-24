@@ -9,9 +9,13 @@ O display também mostra uma sequência de boas-vindas com a marca "INFINITY" e 
 
 Dependências
  bibliotecas do Arduino:
+ 
 Wire.h
+
 LiquidCrystal_I2C.h
+
 Adafruit_RGBLCDShield.h
+
 Adafruit_MCP23017.h (via utility/Adafruit_MCP23017.h)
 
 Estas bibliotecas estão disponíveis através do Gerenciador de Bibliotecas da IDE do Arduino.
