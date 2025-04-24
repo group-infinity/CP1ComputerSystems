@@ -23,17 +23,25 @@ Estas bibliotecas estão disponíveis através do Gerenciador de Bibliotecas da 
 Como Reproduzir
 
 Instale a IDE do Arduino
+
 Baixe em: https://www.arduino.cc/en/software
+
 Instale as bibliotecas necessárias
-Vá em Sketch > Include Library > Manage Libraries...
-Pesquise e instale as bibliotecas mencionadas acima.
+
+Vá em Sketch > Include Library > Manage Libraries... Pesquise e instale as bibliotecas mencionadas acima.
+
 Monte o circuito
+
 Conecte os seguintes componentes ao Arduino:
 Sensor LDR (entrada analógica A0)
 LEDs nas portas digitais 13 (verde), 12 (amarelo) e 11 (vermelho)
 Buzzer na porta digital 7
 Display LCD I2C 16x2
+
 Carregue o código
+
 Abra o arquivo .ino com a IDE do Arduino e carregue-o na placa.
+
 Execute o sistema
+
 Após o upload, o sistema será iniciado automaticamente e começará a monitorar a luminosidade do ambiente.
