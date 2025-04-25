@@ -36,7 +36,7 @@ Passo a passo para a execução do projeto:
 # Execução 🧑‍💻
 Enquanto inicia, o display LCD também mostra uma sequência de boas-vindas com o nome "INFINITY" e um símbolo personalizado de infinito, reforçando a identidade visual do grupo.
 
-Após a inicialização, dependendo da luminosidade do ambiente o sistema reagirá da seguinte forma:
+Após a inicialização, o sistema irá realizar 10 leituras dentro de 10 segundos para calcular a luminosidade média do ambiente, apresentando um dos seguintes resultados abaixo:
 
 **Ideal (luminosidade ≤ 30%):** LED verde será aceso e a mensagem "Ambiente OK" será exibida.
 
