@@ -21,17 +21,17 @@ Passo a passo para a execução do projeto:
     instale as bibliotecas mencionadas acima.
  3. Monte o circuito:
     
-	    Conecte os seguintes componentes ao Arduino: 
-	    Sensor LDR (entrada analógica A0) 
-	    LEDs nas portas digitais 13 (verde), 12 (amarelo) e 11
-	    (vermelho) 
-	    Buzzer na porta digital 7 
-	    Display LCD I2C 16x2
+		Conecte os seguintes componentes ao Arduino: 
+	    	Sensor LDR (entrada analógica A0)
+    		Botão na porta 2
+	    	LEDs nas portas digitais 13 (verde), 12 (amarelo) e 11 (vermelho) 
+	    	Buzzer na porta digital 7
+	    	Display LCD I2C 16x2
   
     
-4. Abra o arquivo .ino com a IDE do Arduino e carregue-o na placa.
+5. Abra o arquivo .ino com a IDE do Arduino e carregue-o na placa.
     
-5. Execute o sistema
+6. Execute o sistema
 
 # Execução 🧑‍💻
 Enquanto inicia, o display LCD também mostra uma sequência de boas-vindas com o nome "INFINITY" e um símbolo personalizado de infinito, reforçando a identidade visual do grupo.
@@ -43,6 +43,9 @@ Após a inicialização, o sistema irá realizar 10 leituras dentro de 10 segund
 **Alerta (luminosidade entre 30% e 50%):** LED amarelo será aceso e a mensagem "Alerta! Luz alta" será exibida.
 
 **Crítico (luminosidade > 50%):** LED vermelho será aceso, a mensagem "CRITICO!" será exibida e o buzzer irá apitar por 3 segundos, voltando a apitar enquanto a luminosidade estiver em estado crítico.
+
+### Diferencial 🧠
+O sistema conta com uma funcionalidade diferencial, que funciona por meio de um botão na protoboard, que ao ser segurado, irá exibir no display LCD o tempo que o sistema passou em estado crítico e em estado de alerta. Para voltar ao monitoramento normal, segure o botão novamente até que o display LCD atualize.
 
 # Membros do Grupo 
 [Diogo Pelinson](https://github.com/diogopelinson), RM563321
