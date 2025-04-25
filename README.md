@@ -9,8 +9,7 @@ Antes de executar o projeto, certifique-se de que as seguintes dependências est
 
     Wire.h
     LiquidCrystal_I2C.h
-    Adafruit_RGBLCDShield.h
-    Adafruit_MCP23017.h (via utility/Adafruit_MCP23017.h)
+
 Estas bibliotecas estão disponíveis através do Gerenciador de Bibliotecas da IDE do Arduino.
 
 # Reprodução 💻
