@@ -22,7 +22,7 @@ Passo a passo para a execução do projeto:
     
 		Conecte os seguintes componentes ao Arduino: 
 	    	Sensor LDR (entrada analógica A0)
-    		Botão na porta 2
+    		Botão na porta digital 2
 	    	LEDs nas portas digitais 13 (verde), 12 (amarelo) e 11 (vermelho) 
 	    	Buzzer na porta digital 7
 	    	Display LCD I2C 16x2
